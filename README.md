@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NARIÑOGRAF - Polarizados y Protección Vehicular
 
-## Getting Started
+Sitio web profesional para **NARIÑOGRAF**, taller especializado en polarizado de vehículos y protección de pintura en Pasto, Colombia.
 
-First, run the development server:
+## 🚗 Servicios
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Polarizados Profesional**: Papel americana, nanocarbono, nanocerámica
+- **PPF (Paint Protection Film)**: Protección extrema de pintura
+- **Diseño e Impresión**: Calcomanias, vinilos, banners, rollups
+
+## 📍 Ubicación
+
+**Barrio Lorenzo, Pasto, Nariño, Colombia**
+
+**Teléfonos:**
+- 302 319 1520
+- 317 326 6964
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Cloudflare Pages
+
+## 📂 Estructura
+
+```
+src/
+├── app/                    # Páginas
+│   ├── page.tsx           # Home
+│   ├── servicios/         # Servicios
+│   ├── portafolio/        # Portafolio
+│   └── nosotros/          # Nosotros
+├── components/
+│   ├── layout/            # Header, Footer
+│   └── sections/          # Secciones de página
+├── lib/
+│   └── constants.ts       # Constantes del proyecto
+└── components/ui/         # Componentes UI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Desarrollo Local
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Instalar dependencias
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Ejecutar en desarrollo
+npm run dev
 
-## Learn More
+# Construir para producción
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# Previsualizar producción
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deploy en Cloudflare
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Subir el proyecto a GitHub
+2. Ir a [Cloudflare Pages](https://pages.cloudflare.com)
+3. Conectar el repositorio
+4. Configurar:
+   - **Framework preset**: Next.js
+   - **Build command**: `npm run build`
+   - **Build output directory**: `.next`
+5. Deploy automático en cada push
 
-## Deploy on Vercel
+## 📝 Notas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Imagenes de servicios y portafolio usan Unsplash como placeholders
+- WhatsApp integration para contacto directo
+- Diseño responsive y optimizado para SEO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+**Licencia MIT** - Libre uso comercial y personal.
