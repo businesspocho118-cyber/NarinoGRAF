@@ -17,48 +17,48 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Test Cliente 1",
-    vehicle: " Toyota 2024",
-    service: "Polarizados",
-    quote: "Test texto test testo test test. Test test test test test test test test.",
+    name: "Andres Felipe",
+    vehicle: "Toyota Corolla 2023",
+    service: "Polarizados Nanocarbono",
+    quote: "El trabajo quedo excepscional. Me explico todas las opciones y el resultado supero mis expectativas. Totalmente recomendado.",
     rating: 5,
-    image: "",
+    image: "https://i.pravatar.cc/160?img=33",
   },
   {
     id: 2,
-    name: "Test Cliente 2",
-    vehicle: "Honda 2023",
-    service: "PPF",
-    quote: "Test texto test testo test test. Test test test test test test test test.",
+    name: "Maria Camila",
+    vehicle: "Mazda CX-5 2022",
+    service: "PPF Frontal",
+    quote: "Excelente servicio. El Paint Protection Film le da una proteccion increible a la pintura. El equipo es muy profesional.",
     rating: 5,
-    image: "",
+    image: "https://i.pravatar.cc/160?img=24",
   },
   {
     id: 3,
-    name: "Test Cliente 3",
-    vehicle: "Ford 2022",
-    service: "Decoracion",
-    quote: "Test texto test testo test test. Test test test test test test test test.",
+    name: "Jorge Andres",
+    vehicle: "Ford Ranger 2021",
+    service: "Polarizados + Diseno",
+    quote: "Llevo 3 vehiculos tratados con ellos y siempre ha sido impecable. El mejor taller de polarizados en Pasto.",
     rating: 5,
-    image: "",
+    image: "https://i.pravatar.cc/160?img=12",
   },
   {
     id: 4,
-    name: "Test Cliente 4",
-    vehicle: "Mazda 2023",
-    service: "Polarizados",
-    quote: "Test texto test testo test test. Test test test test test test test test.",
+    name: "Laura Isabella",
+    vehicle: "Kia Sportage 2024",
+    service: "Polarizados Nanoceramica",
+    quote: "Muy contenta con el servicio. La calidad del polarizado es genial. Lo recomiendo a ojos cerrados.",
     rating: 5,
-    image: "",
+    image: "https://i.pravatar.cc/160?img=44",
   },
   {
     id: 5,
-    name: "Test Cliente 5",
-    vehicle: "Nissan 2023",
-    service: "Diseno",
-    quote: "Test texto test testo test test. Test test test test test test test test.",
+    name: "Roberto Carlos",
+    vehicle: "Nissan Frontier 2022",
+    service: "Diseno e Impresion",
+    quote: "Me hicieron un diseno personalizado unico. La atencion al detalle es extraordinaria. Mi truck quedo increible.",
     rating: 5,
-    image: "",
+    image: "https://i.pravatar.cc/160?img=53",
   },
 ];
 
@@ -144,8 +144,12 @@ export default function Testimonials() {
 
               {/* Author info */}
               <div className="flex items-center gap-4 pt-6 border-t border-white/10">
-                <div className="w-14 h-14 rounded-full bg-[var(--color-primary)]/20 flex items-center justify-center ring-2 ring-[var(--color-primary)]/30">
-                  <span className="text-[var(--color-primary)] font-bold text-lg">T</span>
+                <div className="relative w-14 h-14 rounded-full overflow-hidden ring-2 ring-[var(--color-primary)]/30">
+                  <img
+                    src={testimonials[activeIndex].image}
+                    alt={testimonials[activeIndex].name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <p className="text-white font-semibold text-lg">{testimonials[activeIndex].name}</p>
