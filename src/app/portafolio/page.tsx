@@ -14,17 +14,20 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { id: 1, category: "Carros", title: "Nanoceramica 5%", description: "Polarizado nanoceramico en vehiculo", image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80" },
-  { id: 2, category: "Impresiones", title: "Banner Gran Formato", description: "Banner para negocio", image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&q=80" },
-  { id: 3, category: "Motos", title: "PPF Motos", description: "Proteccion de Paint Protection Film", image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80" },
-  { id: 4, category: "Carros", title: "Papel Americano", description: "Instalacion de papel americano", image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80" },
-  { id: 5, category: "Carros", title: "Lineas Deportivas", description: "Rayas deportivas personalizadas", image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80" },
-  { id: 6, category: "Motos", title: "PPF Completo", description: "Cobertura total de pintura", image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80" },
-  { id: 7, category: "Carros", title: "Polarizados Premium", description: "Polarizado de alta calidad", image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" },
-  { id: 8, category: "Impresiones", title: "Calcomania DTF", description: "Diseno en vinilo DTF", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80" },
+  { id: 1, category: "Carros", title: "Polarizado Carro 1", description: "Trabajo realizado en vehiculo", image: "/portafolio/carros/carro-1.jpeg" },
+  { id: 2, category: "Carros", title: "Polarizado Carro 2", description: "Polarizado profesional", image: "/portafolio/carros/carro-2.jpeg" },
+  { id: 3, category: "Motos", title: "Polarizado Moto 1", description: "Trabajo en moto", image: "/portafolio/motos/moto-1.jpeg" },
+  { id: 4, category: "Motos", title: "Polarizado Moto 2", description: "Polarizado y PPF", image: "/portafolio/motos/moto-2.jpeg" },
+  { id: 5, category: "Carros", title: "Polarizado Carro 3", description: "Instalacion completa", image: "/portafolio/carros/carro-3.jpeg" },
+  { id: 6, category: "Motos", title: "Polarizado Moto 3", description: "Trabajo personalizado", image: "/portafolio/motos/moto-3.jpeg" },
+  { id: 7, category: "Carros", title: "Polarizado Carro 4", description: "Acabado premium", image: "/portafolio/carros/carro-4.jpeg" },
+  { id: 8, category: "Motos", title: "Polarizado Moto 4", description: "PPF parcial", image: "/portafolio/motos/moto-4.jpeg" },
+  { id: 9, category: "Impresiones", title: "Impresion 1", description: "Trabajo de impresion", image: "/portafolio/extras/trabajo-1.jpeg" },
+  { id: 10, category: "Impresiones", title: "Impresion 2", description: "Diseno e impresion", image: "/portafolio/extras/trabajo-2.jpeg" },
+  { id: 11, category: "Extras", title: "Trabajo Extra", description: "Otro trabajo realizado", image: "/portafolio/extras/trabajo-3.jpeg" },
 ];
 
-const categories = ["Todos", "Impresiones", "Carros", "Motos"];
+const categories = ["Todos", "Impresiones", "Carros", "Motos", "Extras"];
 
 export default function PortafolioPage() {
   const [filter, setFilter] = useState("Todos");

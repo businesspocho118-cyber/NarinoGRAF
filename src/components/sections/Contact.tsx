@@ -68,7 +68,7 @@ export default function Contact() {
           {/* Left: Image side */}
           <div className="relative aspect-[4/5] lg:aspect-square rounded-2xl overflow-hidden">
             <img 
-              src="/cita.png"
+              src="/agendar.png"
               alt="Agenda tu cita - NARIÑOGRAF"
               className="w-full h-full object-cover"
             />
