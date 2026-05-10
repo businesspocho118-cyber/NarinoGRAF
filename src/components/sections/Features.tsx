@@ -5,12 +5,12 @@ import { CheckCircle2, MapPin, Phone } from "lucide-react";
 import { COMPANY_INFO } from "@/lib/constants";
 
 const features = [
-  "Especialistas en polarizado de vehículos",
-  "Protección de pintura (PPF)",
-  "Personalización con vinilo",
-  "Materiales de alta calidad",
+  "Especialistas en polarizado de vehiculos",
+  "Proteccion de pintura (PPF)",
+  "Personalizacion con vinilo",
+  "Materiales de alta calidad contramarcados",
   "Resultados profesionales",
-  "Atención personalizada"
+  "Atencion personalizada"
 ];
 
 export default function Features() {

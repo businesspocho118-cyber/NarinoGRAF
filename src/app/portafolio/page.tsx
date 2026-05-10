@@ -14,20 +14,60 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { id: 1, category: "Carros", title: "Polarizado Carro 1", description: "Trabajo realizado en vehiculo", image: "/portafolio/carros/carro-1.jpeg" },
+  // Carros
+  { id: 1, category: "Carros", title: "Polarizado Carro 1", description: "Trabajo realizado", image: "/portafolio/carros/carro-1.jpeg" },
   { id: 2, category: "Carros", title: "Polarizado Carro 2", description: "Polarizado profesional", image: "/portafolio/carros/carro-2.jpeg" },
-  { id: 3, category: "Motos", title: "Polarizado Moto 1", description: "Trabajo en moto", image: "/portafolio/motos/moto-1.jpeg" },
-  { id: 4, category: "Motos", title: "Polarizado Moto 2", description: "Polarizado y PPF", image: "/portafolio/motos/moto-2.jpeg" },
-  { id: 5, category: "Carros", title: "Polarizado Carro 3", description: "Instalacion completa", image: "/portafolio/carros/carro-3.jpeg" },
-  { id: 6, category: "Motos", title: "Polarizado Moto 3", description: "Trabajo personalizado", image: "/portafolio/motos/moto-3.jpeg" },
-  { id: 7, category: "Carros", title: "Polarizado Carro 4", description: "Acabado premium", image: "/portafolio/carros/carro-4.jpeg" },
-  { id: 8, category: "Motos", title: "Polarizado Moto 4", description: "PPF parcial", image: "/portafolio/motos/moto-4.jpeg" },
-  { id: 9, category: "Impresiones", title: "Impresion 1", description: "Trabajo de impresion", image: "/portafolio/extras/trabajo-1.jpeg" },
-  { id: 10, category: "Impresiones", title: "Impresion 2", description: "Diseno e impresion", image: "/portafolio/extras/trabajo-2.jpeg" },
-  { id: 11, category: "Extras", title: "Trabajo Extra", description: "Otro trabajo realizado", image: "/portafolio/extras/trabajo-3.jpeg" },
+  { id: 3, category: "Carros", title: "Polarizado Carro 3", description: "Instalacion completa", image: "/portafolio/carros/carro-3.jpeg" },
+  { id: 4, category: "Carros", title: "Polarizado Carro 4", description: "Acabado premium", image: "/portafolio/carros/carro-4.jpeg" },
+  { id: 5, category: "Carros", title: "Polarizado Carro 5", description: "Trabajo en vehiculo", image: "/portafolio/carros/carro-5.jpeg" },
+  { id: 6, category: "Carros", title: "Polarizado Carro 6", description: "Polarizado profesional", image: "/portafolio/carros/carro-6.jpeg" },
+  { id: 7, category: "Carros", title: "Polarizado Carro 7", description: "Instalacion completa", image: "/portafolio/carros/carro-7.jpeg" },
+  { id: 8, category: "Carros", title: "Polarizado Carro 8", description: "Acabado premium", image: "/portafolio/carros/carro-8.jpeg" },
+  { id: 9, category: "Carros", title: "Polarizado Carro 9", description: "Trabajo en vehiculo", image: "/portafolio/carros/carro-9.jpeg" },
+  { id: 10, category: "Carros", title: "Polarizado Carro 10", description: "Polarizado profesional", image: "/portafolio/carros/carro-10.jpeg" },
+  // Motos
+  { id: 11, category: "Motos", title: "Polarizado Moto 1", description: "Trabajo en moto", image: "/portafolio/motos/moto-1.jpeg" },
+  { id: 13, category: "Motos", title: "Polarizado Moto 3", description: "Trabajo personalizado", image: "/portafolio/motos/moto-3.jpeg" },
+  { id: 14, category: "Motos", title: "Polarizado Moto 4", description: "PPF parcial", image: "/portafolio/motos/moto-4.jpeg" },
+  { id: 15, category: "Motos", title: "Polarizado Moto 5", description: "Trabajo en moto", image: "/portafolio/motos/moto-5.jpeg" },
+  { id: 16, category: "Motos", title: "Polarizado Moto 6", description: "Polarizado profesional", image: "/portafolio/motos/moto-6.jpeg" },
+  { id: 17, category: "Motos", title: "Polarizado Moto 7", description: "Trabajo personalizado", image: "/portafolio/motos/moto-7.jpeg" },
+  { id: 18, category: "Motos", title: "Polarizado Moto 8", description: "PPF parcial", image: "/portafolio/motos/moto-8.jpeg" },
+  { id: 19, category: "Motos", title: "Polarizado Moto 9", description: "Trabajo en moto", image: "/portafolio/motos/moto-9.jpeg" },
+  // Calcomanias
+  { id: 20, category: "Calcomanias", title: "Calcomania 1", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-1.jpeg" },
+  { id: 21, category: "Calcomanias", title: "Calcomania 2", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-2.jpeg" },
+  { id: 22, category: "Calcomanias", title: "Calcomania 3", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-3.jpeg" },
+  { id: 23, category: "Calcomanias", title: "Calcomania 4", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-4.jpeg" },
+  { id: 24, category: "Calcomanias", title: "Calcomania 5", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-5.jpeg" },
+  { id: 25, category: "Calcomanias", title: "Calcomania 6", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-6.jpeg" },
+  { id: 26, category: "Calcomanias", title: "Calcomania 7", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-7.jpeg" },
+  { id: 27, category: "Calcomanias", title: "Calcomania 8", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-8.jpeg" },
+  { id: 28, category: "Calcomanias", title: "Calcomania 9", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-9.jpeg" },
+  { id: 29, category: "Calcomanias", title: "Calcomania 10", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-10.jpeg" },
+  { id: 30, category: "Calcomanias", title: "Calcomania 11", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-11.jpeg" },
+  { id: 31, category: "Calcomanias", title: "Calcomania 12", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-12.jpeg" },
+  { id: 32, category: "Calcomanias", title: "Calcomania 13", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-13.jpeg" },
+  { id: 33, category: "Calcomanias", title: "Calcomania 14", description: "Diseno y calcomania", image: "/portafolio/calcomanias/calcomania-14.jpeg" },
+  // Cascos
+  { id: 34, category: "Cascos", title: "Casco 1", description: "Renovacion de casco", image: "/portafolio/cascos/casco-1.jpeg" },
+  { id: 35, category: "Cascos", title: "Casco 2", description: "Renovacion de casco", image: "/portafolio/cascos/casco-moto2.jpeg" },
+  { id: 36, category: "Cascos", title: "Casco 3", description: "Renovacion de casco", image: "/portafolio/cascos/casco-3.jpeg" },
+  { id: 37, category: "Cascos", title: "Casco 4", description: "Renovacion de casco", image: "/portafolio/cascos/casco-4.jpeg" },
+  { id: 38, category: "Cascos", title: "Casco 5", description: "Renovacion de casco", image: "/portafolio/cascos/casco-5.jpeg" },
+  { id: 39, category: "Cascos", title: "Casco 6", description: "Renovacion de casco", image: "/portafolio/cascos/casco-6.jpeg" },
+  { id: 40, category: "Cascos", title: "Casco 7", description: "Renovacion de casco", image: "/portafolio/cascos/casco-7.jpeg" },
+  { id: 41, category: "Cascos", title: "Casco 8", description: "Renovacion de casco", image: "/portafolio/cascos/casco-8.jpeg" },
+  { id: 42, category: "Cascos", title: "Casco 9", description: "Renovacion de casco", image: "/portafolio/cascos/casco-9.jpeg" },
+  // Impresiones
+  { id: 43, category: "Impresiones", title: "Impresion 1", description: "Trabajo de impresion", image: "/portafolio/extras/trabajo-2.jpeg" },
+  { id: 44, category: "Impresiones", title: "Impresion 2", description: "Diseno e impresion", image: "/portafolio/impresiones/impresion-1.jpeg" },
+  { id: 45, category: "Impresiones", title: "Impresion 3", description: "Impresion digital", image: "/portafolio/impresiones/impresion-2.jpeg" },
+  // Extras (solo 1)
+  { id: 46, category: "Extras", title: "Trabajo Extra", description: "Otro trabajo realizado", image: "/portafolio/extras/trabajo-3.jpeg" },
 ];
 
-const categories = ["Todos", "Impresiones", "Carros", "Motos", "Extras"];
+const categories = ["Todos", "Carros", "Motos", "Calcomanias", "Cascos", "Impresiones", "Extras"];
 
 export default function PortafolioPage() {
   const [filter, setFilter] = useState("Todos");

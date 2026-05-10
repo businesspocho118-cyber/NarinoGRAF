@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import Features from "@/components/sections/Features";
+import LogoCloud from "@/components/sections/LogoCloud";
 import Testimonials from "@/components/sections/Testimonials";
 import Portfolio from "@/components/sections/Portfolio";
 import Contact from "@/components/sections/Contact";
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <Contact />
         <Features />
+        <LogoCloud />
         <Testimonials />
         <Portfolio />
         <LocationMap className="py-12 bg-[#151515]" />

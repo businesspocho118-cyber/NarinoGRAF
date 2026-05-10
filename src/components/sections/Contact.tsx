@@ -4,6 +4,16 @@ import { useState } from "react";
 import { COMPANY_INFO, CONTACT_PHONE } from "@/lib/constants";
 import { motion } from "framer-motion";
 import { Phone, MapPin, Send, Car, Shield, Palette, Zap } from "lucide-react";
+import ImageCarousel from "./ImageCarousel";
+
+const agendarImages = [
+  "/agendar-1.png",
+  "/agendar-2.png",
+  "/agendar-3.png",
+  "/agendar-4.png",
+  "/agendar-5.png",
+  "/agendar-6.png",
+];
 
 const serviceIcons: Record<string, React.ReactNode> = {
   "Polarizados": <Shield className="w-4 h-4" />,
@@ -65,32 +75,8 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center"
         >
-          {/* Left: Image side */}
-          <div className="relative aspect-[4/5] lg:aspect-square rounded-2xl overflow-hidden">
-            <img 
-              src="/agendar.png"
-              alt="Agenda tu cita - NARIÑOGRAF"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-8">
-              <h3 className="font-bebas text-3xl text-white tracking-wide mb-4">¿ Listo para transformar tu vehículo?</h3>
-              <p className="text-gray-300 text-sm mb-6">Contáctanos ahora y obtén tu cotización gratis.</p>
-              
-              {/* Phone numbers - display only, form sends to WhatsApp */}
-              <div className="space-y-2">
-                <p className="text-xs text-gray-400 mb-2">O contáctanos directo:</p>
-                <div className="flex items-center gap-3 bg-white/5 px-4 py-2 rounded-lg border border-white/10">
-                  <Phone className="w-4 h-4 text-[#E63030]" />
-                  <span className="text-white text-sm">302 319 1520</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white/5 px-4 py-2 rounded-lg border border-white/10">
-                  <Phone className="w-4 h-4 text-[#E63030]" />
-                  <span className="text-white text-sm">317 326 6964</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* Left: Image Carousel */}
+          <ImageCarousel images={agendarImages} interval={4000} />
 
           {/* Right: Form */}
           <div className="bg-[#111] border border-white/5 p-6 md:p-8 rounded-2xl">
