@@ -14,9 +14,11 @@ const serviciosDetallados = [
     color: "#C9A84C",
     description: "Los mejores materiales para proteger tu vehiculo del calor y rayos UV. Nanotecnologia de ultima generacion.",
     opciones: [
-      { nombre: "Papel Americana", descripcion: "Calidad americana estandar. Buena rejected de calor.", image: "/polarizado-papel-americano.jpeg" },
+      { nombre: "Papel Americano", descripcion: "Calidad americana estandar. Buena rejected de calor.", image: "/polarizado-papel-americano.jpeg" },
       { nombre: "Nanocarbono", descripcion: "Tecnologia de carbon nano. 99% UV, reduce temperatura hasta 15F.", image: "/polarizado-nanocarbono.webp" },
       { nombre: "Nanoceramica", descripcion: "Capas ceramicas de maxima rejected termica. Durabilidad excepcional.", image: "/polarizado-nanoceramica.webp" },
+      { nombre: "Papel Ultraceramico", descripcion: "Tecnologia ultra ceramica. Maxima rejected termica y durabilidd.", image: "/polarizado-ultraceramico.webp" },
+      { nombre: "Papel Titanio", descripcion: "Reflectivo deportivo. Look agresivo con maxima privacidad.", image: "/polarizado-titanio.jpg" },
     ],
   },
   {
@@ -27,7 +29,7 @@ const serviciosDetallados = [
     description: "Calcomanias en diferentes materiales de alta resistencia para cualquier necesidad.",
     opciones: [
       { nombre: "Vinilo de Corte", descripcion: "Corta y pega. Ideal para logos y textos.", image: "/portafolio/extras/trabajo-1.jpeg" },
-      { nombre: "Vinilo Impreso", descripcion: "Impresion digital de colores complejos.", image: "/portafolio/extras/trabajo-2.jpeg" },
+      { nombre: "Senalizacion Vehicular", descripcion: " senalizacion para vehiculos y negocios.", image: "/portafolio/extras/trabajo-2.jpeg" },
       { nombre: "Lona", descripcion: "Para publicidad exterior. Resistente a la intemperie.", image: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=600&q=80" },
       { nombre: "DTF", descripcion: "Transferencia directa. Colores ilimitados.", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80" },
     ],
@@ -41,8 +43,8 @@ const serviciosDetallados = [
     opciones: [
       { nombre: "PPF Parcial", descripcion: "Guardachoque y frontal. Zonas de mayor exposicion.", image: "/portafolio/carros/carro-4.jpeg" },
       { nombre: "PPF Completo", descripcion: "Cobertura total de pintura. Maxima proteccion.", image: "/portafolio/carros/carro-3.jpeg" },
-      { nombre: "PPF de Color", descripcion: "PPF con tint. Estilo + proteccion.", image: "/portafolio/motos/moto-3.jpeg" },
-      { nombre: "Renovacion", descripcion: "Retiro y reemplazo profesional. Como nuevo.", image: "/portafolio/motos/moto-2.jpeg" },
+      { nombre: "Rotulacion", descripcion: "Personalizacion de moto. Looks unicos y profesionales.", image: "/portafolio/motos/moto-3.jpeg" },
+      { nombre: "Renovacion", descripcion: "Renovacion de cascos viejos y a gusto. Forrado de viseras.", image: "/portafolio/motos/moto-2.jpeg" },
     ],
   },
 ];
