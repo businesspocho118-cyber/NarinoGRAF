@@ -14,13 +14,15 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "Polarizados Pasto | NARIÑOGRAF - Polarizados Premium y Decoración Vehicular",
-  description: "Los mejores polarizados en Pasto, Nariño. Nanocerámica, nanocarbono, titanio y PPF. Decoración vehicular, calcomanías y diseño gráfico. 6 años de experiencia. Cotiza ahora.",
-  keywords: "polarizados Pasto, polarizado nanocerámica Pasto, polarizados Nariño, decoración vehicular Pasto, PPF Pasto, taller polarizados, calcomanías Pasto, vinilo vehicular",
+  title: "Polarizados Pasto | NARIÑOGRAF - Polarizados Premium, PPF y Decoración Vehicular",
+  description: "Los mejores polarizados en Pasto, Nariño. Nanocerámica, nanocarbono, titanio, ultracerámico y PPF. Decoración vehicular, calcomanías, diseño gráfico y rotulación. 6 años de experiencia. Cotiza ahora.",
+  keywords: "polarizados Pasto, polarizado Nariño, polarizados carros Pasto, polarizados carros Nariño, PPF Pasto, PPF Nariño, decoración vehicular Pasto, taller polarizados Pasto, calcomanías Pasto, vinilo vehicular Pasto, rotulación Pasto, polarizado moto Pasto, protection film Pasto",
   openGraph: {
-    title: "Polarizados Pasto | NARIÑOGRAF",
-    description: "Los mejores polarizados premium en Pasto. Nanocerámica, nanocarbono, titanio y PPF. 6 años de experiencia.",
+    title: "NARIÑOGRAF - Polarizados Premium en Pasto",
+    description: "Especialistas en polarizados, PPF y decoración vehicular en Nariño. Nanocerámica, nanocarbono, titanio. Cotiza ya.",
     type: "website",
+    url: "https://narinograf.com",
+    siteName: "NARIÑOGRAF",
   },
 };
 
